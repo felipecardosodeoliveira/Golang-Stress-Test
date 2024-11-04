@@ -32,3 +32,13 @@ Você pode construir uma imagem docker e executar a aplicação.
 2. Execute a imagem:
 
     docker run golang_stress_test --url=https://fullcycle.com.br/ --requests=1000 --concurrency=10
+
+    Resultado do teste
+    ```bash
+    docker run golang_stress_test --url=https://fullcycle.com.br/ --requests=1000 --concurrency=10
+    Tempo total: 2m36.401545297s
+    Total de requests realizados: 1000
+    Requests com status 200: 0
+    Distribuição de outros códigos de status:
+
+   
