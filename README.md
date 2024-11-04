@@ -41,4 +41,9 @@ Você pode construir uma imagem docker e executar a aplicação.
     Requests com status 200: 0
     Distribuição de outros códigos de status:
 
+    docker run golang_stress_test --url=https://google.com.br/ --requests=1000 --concurrency=10
+    Tempo total: 4m33.443621686s
+    Total de requests realizados: 1000
+    Requests com status 200: 0
+    Distribuição de outros códigos de status:
    
